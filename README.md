@@ -1,5 +1,5 @@
 # Search
-Binary search algo and other dependent algos
+Binary search algo and other dependent algo
 
  * -> Time complexity:	
  * -> Space complexity:	
