@@ -31,7 +31,6 @@ public class EfficientApproach1 {
 	 */
 	public static void main(String[] args) {
 
-
 		int [] data1 = {1, 2, 3, 3, 4, 5};
 		System.out.println("\nArray: "+Arrays.toString(data1)+" has repeating element: "+findRepeatingElement(data1));
 
@@ -48,7 +47,7 @@ public class EfficientApproach1 {
 
 	/**
 	 * @param data
-	 * @return
+	 * @return - repeating element (not position of the repeating element)
 	 */
 	private static int findRepeatingElement(int[] data) {
 		// initializations
@@ -71,5 +70,10 @@ public class EfficientApproach1 {
 		}
 		// return the point where both pointers met
 		return slowIndex;
+		/*
+		 * or (as both matches)
+		 * 
+		 * return fastIndex;
+		 */
 	}
 }

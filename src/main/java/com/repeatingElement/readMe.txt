@@ -1,4 +1,4 @@
-This problem has some base line conditions.
+This problem has below base line conditions for it's efficient solutions.
 
 1. The array will contain 0. And minimum array size will be 2.
 
@@ -7,7 +7,10 @@ This problem has some base line conditions.
 3. Except the repeating element; all other elements will be present exactly once.
 
 4. If the array has length 'n' then the maximum element of the array will fall in range :
-		0 <= Max(array) <= (n-2) 
+		
+					0 <= Max(array) <= (n-2)
+		
+		This condition will help to eliminate possibility of array out of bound exception. 
 		
 5. Requirement is to find the solution with O(n) time complexity & O(1) auxiliary space.
 
@@ -30,10 +33,7 @@ This problem has below naive solutions:
 
 Required solution for O(n) time & O(1) space.
 
-1. First solution is for the array where there is no '0' element. 
+1. First solution is for the array where there is no '0' element. -- EfficientApproach1.java
 
-	ex: EfficientApproach1.java
-
-2. Above solution will be extended further for the case when '0' is in the array. 
-	element
+2. Above solution will be extended further for the case when '0' is in the array. -- EfficientApproach2.java
 	

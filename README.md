@@ -3,8 +3,7 @@ Binary search algo and other dependent algo
 
  * -> Time complexity:	
  * -> Space complexity:	
- * -> Auxiliary space:
- 
+ * -> Auxiliary space: 
 ###
 
 1. Binary search : iterative & recursive.

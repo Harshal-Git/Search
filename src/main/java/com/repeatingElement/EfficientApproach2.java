@@ -46,7 +46,7 @@ public class EfficientApproach2 {
 
 	/**
 	 * @param data
-	 * @return
+	 * @return - repeating element (not position of the repeating element)
 	 */
 	private static int findRepeatingElement(int[] data) {
 		// initializations
