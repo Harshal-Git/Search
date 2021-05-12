@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.frequencyInArray;
+package com.frequencyInSortedArray;
 
 import java.util.Arrays;
 
@@ -23,7 +23,7 @@ import java.util.Arrays;
  * -> Space complexity:	0(n)
  * -> Auxiliary space:	0(1)
  */
-public class StandardApproach {
+public class EfficientApproach {
 
 	/**
 	 * @param args

@@ -14,7 +14,7 @@ import java.util.Arrays;
  * -> Space complexity:	O(n)
  * -> Auxiliary space: O(n)
  */
-public class NaiveAP3 {
+public class NaiveApproach {
 
 	/**
 	 * @param args
