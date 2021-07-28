@@ -36,32 +36,32 @@ public class EfficientApproach {
 	public static void main(String[] args) {
 
 		int [] data1 = {5, 10, 20, 15, 7};
-		System.out.println("Array: "+Arrays.toString(data1)+" has peak element/s : "+getPeakElements(data1));
+		System.out.println("Array: "+Arrays.toString(data1)+" has peak element: "+getPeakElement(data1));
 
 		int [] data2 = {10, 20, 15, 5, 23, 90};
-		System.out.println("\nArray: "+Arrays.toString(data2)+" has peak element/s : "+getPeakElements(data2));
+		System.out.println("\nArray: "+Arrays.toString(data2)+" has peak element: "+getPeakElement(data2));
 
 		int [] data3 = {80, 70, 90};
-		System.out.println("\nArray: "+Arrays.toString(data3)+" has peak element/s : "+getPeakElements(data3));
+		System.out.println("\nArray: "+Arrays.toString(data3)+" has peak element: "+getPeakElement(data3));
 
 		int [] data4 = {80, 70, 60};
-		System.out.println("\nArray: "+Arrays.toString(data4)+" has peak element/s : "+getPeakElements(data4));
+		System.out.println("\nArray: "+Arrays.toString(data4)+" has peak element: "+getPeakElement(data4));
 
 		int [] data5 = {5, 20, 40, 30, 20, 50, 60};
-		System.out.println("\nArray: "+Arrays.toString(data5)+" has peak element/s : "+getPeakElements(data5));
+		System.out.println("\nArray: "+Arrays.toString(data5)+" has peak element: "+getPeakElement(data5));
 
 		int [] data6 = {5, 10, 20, 40, 60, 80, 70};
-		System.out.println("\nArray: "+Arrays.toString(data6)+" has peak element/s : "+getPeakElements(data6));
+		System.out.println("\nArray: "+Arrays.toString(data6)+" has peak element: "+getPeakElement(data6));
 
 		int [] data7 = {5, 10, 20, 40, 60, 70, 80};
-		System.out.println("\nArray: "+Arrays.toString(data7)+" has peak element/s : "+getPeakElements(data7));
+		System.out.println("\nArray: "+Arrays.toString(data7)+" has peak element: "+getPeakElement(data7));
 	}
 
 	/**
 	 * @param data
 	 * @return
 	 */
-	private static int getPeakElements(int[] data) {
+	private static int getPeakElement(int[] data) {
 
 		int size = data.length;
 		int start = 0;

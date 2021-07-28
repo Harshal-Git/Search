@@ -9,7 +9,7 @@ import java.util.Arrays;
  * @author Harshal-Git
  *
  *	-> given a sorted array which is rotated by unknown times. a number 'k' is given and we need to find whether 'k' exist
- *		or not in  the given array.
+ *		or not in  the given array. Rotation side is also unknown.
  *
  *  -> naive solution : linear search with O(n) complexity.
  *  

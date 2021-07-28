@@ -8,7 +8,7 @@ import java.util.Arrays;
 /**
  * @author Harshal-Git
  *
- *	-> find frequency of elements from given sorted array
+ *	-> find frequency of a given element from given sorted array.
  *
  *	ex:
  *		i/p : {10, 20, 20, 20, 30, 30} & num = 20	=> o/p : 3
