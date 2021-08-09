@@ -13,7 +13,9 @@ import java.util.Arrays;
  *
  *  -> naive solution : linear search with O(n) complexity.
  *  
- *  -> efficient solution : using binary search
+ *  -> efficient solution : using binary search : this works on the fact that for any sorted & rotated array, either of the 
+ *  		part (left OR right) will be fully sorted. so based on the search element value, we can choose either of the part
+ *  		to perform binary search.
  *  
  * -> Time complexity: O(log n)	
  * -> Space complexity:	O(n)
@@ -95,7 +97,7 @@ public class EfficientApproach {
 				if((searchElement >= data[start]) && (searchElement < data[mid])) {
 					end = (mid-1);
 				} else {
-					// otherwise go to right half
+					// otherwise go to right half as normal BS
 					start = (mid+1);
 				}
 			} else {												// when right half is sorted 
@@ -103,7 +105,7 @@ public class EfficientApproach {
 				if((searchElement > data[mid]) && (searchElement <= data[end])) {
 					start = (mid+1);
 				} else {
-					// otherwise go to left half
+					// otherwise go to left half as normal BS
 					end = (mid-1);
 				}
 			}

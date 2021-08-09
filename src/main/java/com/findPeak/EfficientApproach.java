@@ -73,16 +73,16 @@ public class EfficientApproach {
 			// find mid
 			mid = (start+((end-start)/2));
 
-			// initial positions
+			// initial positions OR current mid satisfies the condition
 			if(((mid == 0) || (data[mid-1] < data[mid])) && 
 					((mid == (size-1)) || (data[mid+1] < data[mid]))) {
 				return data[mid];
 			} 
 			else if ((mid > 0) && data[mid-1] >= data[mid]) {
-				// perform left search
+				// perform left search : if previous to mid element is greater
 				end = (mid-1);
 			} else {
-				// perform right search
+				// perform right search : if previous to mid element is smaller
 				start = (mid+1);
 			}
 		}
